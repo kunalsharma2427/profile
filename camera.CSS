@@ -1,0 +1,62 @@
+.menus
+		{
+			background:linear-gradient(to right, black,black, black,black, black);
+		}
+
+	.menus ul
+		{
+			margin:0px;
+			padding:0px;
+		}
+
+		.menus ul li
+		{
+			display: inline-block;
+		}
+		.menus ul li a 
+		{
+			text-decoration:none;
+			padding:20px;
+			font-size:25px;
+			color:white;
+			display: block;
+		}
+		.menus ul li a:hover
+		{
+			background:grey;
+			color:black;
+		}
+
+/*		Submenus Css Start*/
+
+		.menus li ul
+		{
+			display: none;
+			background:linear-gradient(to right, #99ebff,#1ad1ff, #99ebff,#1ad1ff, #99ebff);
+		}
+		.menus li:hover ul
+		{
+			display: block;
+			position:absolute;
+		}
+		.menus li li
+		{
+			display: block;
+		}
+
+	.h1
+	{
+		background: white;
+	}
+	.h2
+	{
+		background: white;
+	}
+	.p 
+	{
+		background: white;
+	}
+	.menus1
+	{
+         background:linear-gradient(to right,black,)
+	}
